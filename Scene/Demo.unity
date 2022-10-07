@@ -1,0 +1,952 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &641634937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641634938}
+  m_Layer: 0
+  m_Name: Cant contain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641634938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641634937}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2146223799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1220919750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220919752}
+  - component: {fileID: 1220919751}
+  m_Layer: 0
+  m_Name: Cant Endwith
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1220919751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220919750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bb57469b16b2b41bf61cc2b828b48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cantEndWith:
+  - .csproj
+  m_useLower: 1
+  m_useTrim: 1
+--- !u!4 &1220919752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220919750}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2146223799}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1367627436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1367627438}
+  - component: {fileID: 1367627437}
+  m_Layer: 0
+  m_Name: Must contain assets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1367627437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367627436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236dc5cdfef81b7448a3e685bb23b585, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cantContain:
+  - Assets\
+  m_useLower: 1
+  m_useTrim: 1
+  m_containType: 1
+--- !u!4 &1367627438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367627436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1826704658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1540232712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1540232714}
+  - component: {fileID: 1540232713}
+  m_Layer: 0
+  m_Name: Filtered
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1540232713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540232712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337f8c08523b5034dbeeda58cd09da2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_anchor:
+    m_rootPath: 
+    m_trackedFilePathInRoot:
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorFilterMono.cs
+      m_fileByteSize: 2074
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorFilterMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorMono.cs
+      m_fileByteSize: 297
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources\BillingMode.json
+      m_fileByteSize: 29
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources\BillingMode.json.meta
+      m_fileByteSize: 158
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes\SampleScene.unity
+      m_fileByteSize: 50364
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes\SampleScene.unity.meta
+      m_fileByteSize: 155
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\README.md
+      m_fileByteSize: 232
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\README.md.meta
+      m_fileByteSize: 158
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\be.eloistree.folderpathsmappinganchor.asmdef
+      m_fileByteSize: 413
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\be.eloistree.folderpathsmappinganchor.asmdef.meta
+      m_fileByteSize: 166
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\Experiment_CreateAnchors.cs
+      m_fileByteSize: 8556
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\Experiment_CreateAnchors.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_ContainsStringMono.cs
+      m_fileByteSize: 1708
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_ContainsStringMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_FinishByMono.cs
+      m_fileByteSize: 1150
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_FinishByMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_MustFinishByMono.cs
+      m_fileByteSize: 1153
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_MustFinishByMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\StringBuild.cs
+      m_fileByteSize: 75
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\StringBuild.cs.meta
+      m_fileByteSize: 243
+    m_trackedFolderPathInRoot:
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\.git
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime
+--- !u!4 &1540232714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540232712}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1878278457}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1826704656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1826704658}
+  - component: {fileID: 1826704657}
+  m_Layer: 0
+  m_Name: Filter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1826704657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826704656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0a170448555ff429013f1392e4c0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fileFilter:
+    m_pathIgnore:
+    - {fileID: 1367627437}
+    m_nullPathAllowValue: 0
+  m_folderFilter:
+    m_pathIgnore:
+    - {fileID: 1367627437}
+    m_nullPathAllowValue: 0
+  m_filtered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1540232713}
+        m_TargetAssemblyTypeName: FolderPathsMappingAnchorMono, Assembly-CSharp
+        m_MethodName: SetWithAnchor
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  m_pushType: 0
+--- !u!4 &1826704658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826704656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1367627438}
+  m_Father: {fileID: 1878278457}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1878278455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878278457}
+  - component: {fileID: 1878278456}
+  - component: {fileID: 1878278458}
+  m_Layer: 0
+  m_Name: Experiment Anchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1878278456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878278455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ed5d6e0dd1f3c41afdd879a5bb06c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetAbsolutePath: M:\AssetStore\EloiStreeAssetStore
+  m_whereToStoreAnchor: 
+  m_anchor:
+    m_rootPath: 
+    m_trackedFilePathInRoot:
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\.vsconfig
+      m_fileByteSize: 99
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\EloiStreeAssetStore.sln
+      m_fileByteSize: 44035
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorFilterMono.cs
+      m_fileByteSize: 2074
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorFilterMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorMono.cs
+      m_fileByteSize: 297
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\FolderPathsMappingAnchorMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\ApiUpdaterCheck.txt
+      m_fileByteSize: 1401
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\AssetImportWorker0-prev.log
+      m_fileByteSize: 3584
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\AssetImportWorker0.log
+      m_fileByteSize: 74517
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\AssetImportWorker1-prev.log
+      m_fileByteSize: 45644
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\Packages-Update.log
+      m_fileByteSize: 1869
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\shadercompiler-AssetImportWorker0.log
+      m_fileByteSize: 189
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      m_fileByteSize: 189
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Packages\manifest.json
+      m_fileByteSize: 2102
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Packages\packages-lock.json
+      m_fileByteSize: 12357
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\AudioManager.asset
+      m_fileByteSize: 416
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\ClusterInputManager.asset
+      m_fileByteSize: 114
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\DynamicsManager.asset
+      m_fileByteSize: 1190
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\EditorBuildSettings.asset
+      m_fileByteSize: 160
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\EditorSettings.asset
+      m_fileByteSize: 969
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\GraphicsSettings.asset
+      m_fileByteSize: 2230
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\InputManager.asset
+      m_fileByteSize: 9731
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\NavMeshAreas.asset
+      m_fileByteSize: 1308
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\NetworkManager.asset
+      m_fileByteSize: 151
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\PackageManagerSettings.asset
+      m_fileByteSize: 1003
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\Physics2DSettings.asset
+      m_fileByteSize: 2028
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\PresetManager.asset
+      m_fileByteSize: 146
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\ProjectSettings.asset
+      m_fileByteSize: 19043
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\ProjectVersion.txt
+      m_fileByteSize: 85
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\QualitySettings.asset
+      m_fileByteSize: 6451
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\TagManager.asset
+      m_fileByteSize: 378
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\TimeManager.asset
+      m_fileByteSize: 202
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\UnityConnectSettings.asset
+      m_fileByteSize: 901
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\URPProjectSettings.asset
+      m_fileByteSize: 410
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\VersionControlSettings.asset
+      m_fileByteSize: 188
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\VFXManager.asset
+      m_fileByteSize: 308
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings\XRSettings.asset
+      m_fileByteSize: 158
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\UserSettings\EditorUserSettings.asset
+      m_fileByteSize: 605
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources\BillingMode.json
+      m_fileByteSize: 29
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources\BillingMode.json.meta
+      m_fileByteSize: 158
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes\SampleScene.unity
+      m_fileByteSize: 50364
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes\SampleScene.unity.meta
+      m_fileByteSize: 155
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+      m_fileByteSize: 71587
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Assembly-CSharp.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 112325
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\be.eloistree.folderpathsmappinganchor.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\be.eloistree.folderpathsmappinganchor.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\be.eloistree.generaltoolbox.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      m_fileByteSize: 32742
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.2D.Tilemap.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 612
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Mathematics.csproj.AssemblyReference.cache
+      m_fileByteSize: 3835
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Mathematics.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 342
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.RenderPipelines.Core.Runtime.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 955
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.RenderPipelines.Core.ShaderLibrary.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj.AssemblyReference.cache
+      m_fileByteSize: 109521
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.RenderPipelines.Universal.Shaders.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Rider.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Searcher.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Services.Core.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 73420
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.TextMeshPro.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34580
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Timeline.csproj.AssemblyReference.cache
+      m_fileByteSize: 109521
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Timeline.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 74021
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.Timeline.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 342
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\Unity.VisualStudio.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 74021
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEditor.SpatialTracking.csproj.AssemblyReference.cache
+      m_fileByteSize: 612
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEditor.TestRunner.csproj.AssemblyReference.cache
+      m_fileByteSize: 74021
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEditor.UI.csproj.AssemblyReference.cache
+      m_fileByteSize: 11
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Advertisements.DevX.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 612
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Advertisements.Editor.csproj.AssemblyReference.cache
+      m_fileByteSize: 612
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Monetization.csproj.AssemblyReference.cache
+      m_fileByteSize: 112667
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Monetization.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34840
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Purchasing.AppleCore.csproj.AssemblyReference.cache
+      m_fileByteSize: 112667
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Purchasing.AppleCore.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34840
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Purchasing.SecurityStub.csproj.AssemblyReference.cache
+      m_fileByteSize: 112667
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Purchasing.WinRTCore.csproj.AssemblyReference.cache
+      m_fileByteSize: 112667
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.Purchasing.WinRTCore.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34840
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.TestRunner.csproj.AssemblyReference.cache
+      m_fileByteSize: 34722
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.TestRunner.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 33636
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.UI.csproj.AssemblyReference.cache
+      m_fileByteSize: 109521
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.UI.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34249
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\UnityEngine.XR.LegacyInputHelpers.Player.csproj.AssemblyReference.cache
+      m_fileByteSize: 34840
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\.vs\EloiStreeAssetStore\v16\.suo
+      m_fileByteSize: 24167936
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\README.md
+      m_fileByteSize: 232
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\README.md.meta
+      m_fileByteSize: 158
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime.meta
+      m_fileByteSize: 172
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\be.eloistree.folderpathsmappinganchor.asmdef
+      m_fileByteSize: 413
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\be.eloistree.folderpathsmappinganchor.asmdef.meta
+      m_fileByteSize: 166
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\Experiment_CreateAnchors.cs
+      m_fileByteSize: 8556
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\Experiment_CreateAnchors.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_ContainsStringMono.cs
+      m_fileByteSize: 1708
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_ContainsStringMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_FinishByMono.cs
+      m_fileByteSize: 1150
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_FinishByMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_MustFinishByMono.cs
+      m_fileByteSize: 1153
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\PathIgnore_MustFinishByMono.cs.meta
+      m_fileByteSize: 243
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\StringBuild.cs
+      m_fileByteSize: 75
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime\StringBuild.cs.meta
+      m_fileByteSize: 243
+    m_trackedFolderPathInRoot:
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\.vs
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Library
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Logs
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Packages
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\ProjectSettings
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Temp
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\UnityPackageManager
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\UserSettings
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\.vs\EloiStreeAssetStore
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Resources
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\Scenes
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\.vs\EloiStreeAssetStore\v16
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\obj\Debug\TempPE
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\.git
+    - m_absolutePath: M:\AssetStore\EloiStreeAssetStore\Assets\2022_10_07_FolderPathsMappingAnchor\2022_10_07_FolderPathsMappingAnchor\Runtime
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1826704657}
+        m_TargetAssemblyTypeName: FolderPathsMappingAnchorFilterMono, Assembly-CSharp
+        m_MethodName: Push
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  m_builder:
+    m_pathIgnoreFilter:
+      m_pathIgnore:
+      - {fileID: 1878278458}
+      - {fileID: 1220919751}
+      m_nullPathAllowValue: 1
+  m_debugText: "#|\nM:\\AssetStore\\EloiStreeAssetStore\\.vsconfig\u275699\r\nM:\\AssetStore\\EloiStreeAssetStore\\EloiStreeAssetStore.sln\u275644035\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor.meta\u2756172\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\FolderPathsMappingAnchorFilterMono.cs\u27562074\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\FolderPathsMappingAnchorFilterMono.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\FolderPathsMappingAnchorMono.cs\u2756297\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\FolderPathsMappingAnchorMono.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Resources.meta\u2756172\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Scenes.meta\u2756172\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\ApiUpdaterCheck.txt\u27561401\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\AssetImportWorker0-prev.log\u27563584\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\AssetImportWorker0.log\u275674517\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\AssetImportWorker1-prev.log\u275645644\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\Packages-Update.log\u27561869\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\shadercompiler-AssetImportWorker0.log\u2756189\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\\shadercompiler-UnityShaderCompiler.exe0.log\u2756189\r\nM:\\AssetStore\\EloiStreeAssetStore\\Packages\\manifest.json\u27562102\r\nM:\\AssetStore\\EloiStreeAssetStore\\Packages\\packages-lock.json\u275612357\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\AudioManager.asset\u2756416\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\ClusterInputManager.asset\u2756114\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\DynamicsManager.asset\u27561190\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\EditorBuildSettings.asset\u2756160\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\EditorSettings.asset\u2756969\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\GraphicsSettings.asset\u27562230\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\InputManager.asset\u27569731\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\NavMeshAreas.asset\u27561308\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\NetworkManager.asset\u2756151\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\PackageManagerSettings.asset\u27561003\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\Physics2DSettings.asset\u27562028\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\PresetManager.asset\u2756146\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\ProjectSettings.asset\u275619043\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\ProjectVersion.txt\u275685\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\QualitySettings.asset\u27566451\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\TagManager.asset\u2756378\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\TimeManager.asset\u2756202\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\UnityConnectSettings.asset\u2756901\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\URPProjectSettings.asset\u2756410\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\VersionControlSettings.asset\u2756188\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\VFXManager.asset\u2756308\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\\XRSettings.asset\u2756158\r\nM:\\AssetStore\\EloiStreeAssetStore\\UserSettings\\EditorUserSettings.asset\u2756605\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor.meta\u2756172\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Resources\\BillingMode.json\u275629\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Resources\\BillingMode.json.meta\u2756158\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Scenes\\SampleScene.unity\u275650364\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Scenes\\SampleScene.unity.meta\u2756155\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Assembly-CSharp.csproj.AssemblyReference.cache\u275671587\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Assembly-CSharp.Player.csproj.AssemblyReference.cache\u2756112325\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\be.eloistree.folderpathsmappinganchor.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\be.eloistree.folderpathsmappinganchor.Player.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\be.eloistree.generaltoolbox.Player.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache\u275632742\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.2D.Tilemap.Editor.csproj.AssemblyReference.cache\u2756612\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Mathematics.csproj.AssemblyReference.cache\u27563835\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Mathematics.Player.csproj.AssemblyReference.cache\u2756342\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.RenderPipelines.Core.Runtime.Player.csproj.AssemblyReference.cache\u2756955\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.RenderPipelines.Core.ShaderLibrary.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj.AssemblyReference.cache\u2756109521\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.RenderPipelines.Universal.Shaders.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Rider.Editor.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Searcher.Editor.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Services.Core.Editor.csproj.AssemblyReference.cache\u275673420\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.TextMeshPro.Player.csproj.AssemblyReference.cache\u275634580\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Timeline.csproj.AssemblyReference.cache\u2756109521\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Timeline.Editor.csproj.AssemblyReference.cache\u275674021\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.Timeline.Player.csproj.AssemblyReference.cache\u2756342\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\Unity.VisualStudio.Editor.csproj.AssemblyReference.cache\u275674021\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEditor.SpatialTracking.csproj.AssemblyReference.cache\u2756612\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEditor.TestRunner.csproj.AssemblyReference.cache\u275674021\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEditor.UI.csproj.AssemblyReference.cache\u275611\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Advertisements.DevX.Editor.csproj.AssemblyReference.cache\u2756612\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Advertisements.Editor.csproj.AssemblyReference.cache\u2756612\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Monetization.csproj.AssemblyReference.cache\u2756112667\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Monetization.Player.csproj.AssemblyReference.cache\u275634840\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Purchasing.AppleCore.csproj.AssemblyReference.cache\u2756112667\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Purchasing.AppleCore.Player.csproj.AssemblyReference.cache\u275634840\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Purchasing.SecurityStub.csproj.AssemblyReference.cache\u2756112667\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Purchasing.WinRTCore.csproj.AssemblyReference.cache\u2756112667\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.Purchasing.WinRTCore.Player.csproj.AssemblyReference.cache\u275634840\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.TestRunner.csproj.AssemblyReference.cache\u275634722\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.TestRunner.Player.csproj.AssemblyReference.cache\u275633636\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.UI.csproj.AssemblyReference.cache\u2756109521\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.UI.Player.csproj.AssemblyReference.cache\u275634249\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\UnityEngine.XR.LegacyInputHelpers.Player.csproj.AssemblyReference.cache\u275634840\r\nM:\\AssetStore\\EloiStreeAssetStore\\.vs\\EloiStreeAssetStore\\v16\\.suo\u275624167936\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\README.md\u2756232\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\README.md.meta\u2756158\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime.meta\u2756172\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\be.eloistree.folderpathsmappinganchor.asmdef\u2756413\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\be.eloistree.folderpathsmappinganchor.asmdef.meta\u2756166\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\Experiment_CreateAnchors.cs\u27568556\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\Experiment_CreateAnchors.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_ContainsStringMono.cs\u27561708\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_ContainsStringMono.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_FinishByMono.cs\u27561150\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_FinishByMono.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_MustFinishByMono.cs\u27561153\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\PathIgnore_MustFinishByMono.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\StringBuild.cs\u275675\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\\StringBuild.cs.meta\u2756243\r\nM:\\AssetStore\\EloiStreeAssetStore\\.vs\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\r\nM:\\AssetStore\\EloiStreeAssetStore\\Library\r\nM:\\AssetStore\\EloiStreeAssetStore\\Logs\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\r\nM:\\AssetStore\\EloiStreeAssetStore\\Packages\r\nM:\\AssetStore\\EloiStreeAssetStore\\ProjectSettings\r\nM:\\AssetStore\\EloiStreeAssetStore\\Temp\r\nM:\\AssetStore\\EloiStreeAssetStore\\UnityPackageManager\r\nM:\\AssetStore\\EloiStreeAssetStore\\UserSettings\r\nM:\\AssetStore\\EloiStreeAssetStore\\.vs\\EloiStreeAssetStore\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Resources\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\Scenes\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\r\nM:\\AssetStore\\EloiStreeAssetStore\\.vs\\EloiStreeAssetStore\\v16\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\r\nM:\\AssetStore\\EloiStreeAssetStore\\obj\\Debug\\TempPE\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\.git\r\nM:\\AssetStore\\EloiStreeAssetStore\\Assets\\2022_10_07_FolderPathsMappingAnchor\\2022_10_07_FolderPathsMappingAnchor\\Runtime\r\n"
+--- !u!4 &1878278457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878278455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2146223799}
+  - {fileID: 1826704658}
+  - {fileID: 1540232714}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878278458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878278455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236dc5cdfef81b7448a3e685bb23b585, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cantContain:
+  - Library\
+  - library\
+  - .git\
+  - Temp\
+  m_useLower: 0
+  m_useTrim: 0
+  m_containType: 0
+--- !u!1 &2146223798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2146223799}
+  m_Layer: 0
+  m_Name: Explore Filter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2146223799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146223798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 641634938}
+  - {fileID: 1220919752}
+  m_Father: {fileID: 1878278457}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
